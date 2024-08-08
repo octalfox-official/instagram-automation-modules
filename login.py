@@ -3,9 +3,7 @@ import time
 from constants import *
 
 
-def run_program():
+def run_programe():
     print(Programmer)
-    time.sleep(7)
-    run_program()
-
-run_program()
+    time.sleep(2)
+    run_programe()
